@@ -1,2 +1,2 @@
 # PythonSSH
-a simple implement of SSH(Secure Shell) using paramiko liberary
+a simple implement of SSH(Secure Shell) using paramiko library
