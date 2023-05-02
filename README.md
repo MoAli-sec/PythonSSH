@@ -51,3 +51,30 @@ Please note that these scripts provide a basic implementation and may require fu
 To use the ssh_cmd.py script, make sure the SSH service is running on your machine. Then, run the script and follow the prompts to enter the server IP, port, username, password, and command to execute remotely.
 
 To use the client.py and server.py scripts, make sure the SSH service is not running on your machine. Run the server.py script on the machine you want to act as the SSH server. Then, run the client.py script on the machine you want to act as the SSH client. The client script will establish a connection to the server and prompt you to enter commands to execute remotely.
+
+Note you will have to modify the some lines in order for the server script to work: 
+1- you have to change the user name and password on the line 55 
+2- you need to add the ip of the machine you will run the server script on it
+
+In the client script you have to check the username of the server and the client machines:
+1- if there was the same (e.g linux as server the username in it called moali and windows machine the username of it is called moali) you can leave the script unchanged
+2- if there was not the same you have to comment line 68 and uncomment line 67 to take the username as input
+
+## Dependencies
+The scripts in this project require the following dependencies:
+
+- Python3.x
+
+- Paramiko: You can install it using pip:<br>
+`pip install paramiko`
+
+- cryptography: You can install it using pip:<br>
+`pip install cryptography`
+
+## Disclaimer
+This tool is intended for educational and testing purposes only. Please use responsibly and with the explicit permission of the remote server owner. Use them at your own risk.
+
+## License
+This project is licensed under the MIT License.
+
+Feel free to modify and extend the code according to your needs.
