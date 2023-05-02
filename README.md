@@ -41,3 +41,7 @@ You have to make it like this:<br>
 - client.py: This script implements a basic SSH client using the Paramiko library. It connects to a remote server and sends commands to execute.
 
 - server.py: This script implements a basic SSH server using the Paramiko library. It listens for incoming SSH connections and executes the received commands.
+
+To use the client and server scripts, you don't need to start the SSH service manually. The server script will handle the SSH server functionality, and the client script will establish a connection and send commands to execute on the server.
+
+Please note that these scripts provide a basic implementation and may require further modifications or additional error handling for production environments.
