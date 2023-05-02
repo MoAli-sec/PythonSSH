@@ -56,12 +56,12 @@ To use the ssh_cmd.py script, make sure the SSH service is running on your machi
 
 To use the client.py and server.py scripts, make sure the SSH service is not running on your machine. Run the server.py script on the machine you want to act as the SSH server. Then, run the client.py script on the machine you want to act as the SSH client. The client script will establish a connection to the server and prompt you to enter commands to execute remotely.
 
-Note you will have to modify the some lines in order for the server script to work:<br>
-1- you have to change the user name and password on the line 55 <br>
+Note you will have to modify some lines in order for the server script to work:<br>
+1- you have to change the username and password on the line 55 <br>
 2- you need to add the ip of the machine you will run the server script on it <br>
 
 In the client script you have to check the username of the server and the client machines:<br>
-1- if there was the same (e.g linux as server the username in it called moali and windows machine the username of it is called moali) you can leave the script unchanged<br>
+1- if there was the same (e.g. linux as server the username in it called moali and Windows machine the username of it is called moali) you can leave the script unchanged<br>
 2- if there was not the same you have to comment line 68 and uncomment line 67 to take the username as input<br>
 
 ## Dependencies
