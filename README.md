@@ -36,3 +36,8 @@ You have to make it like this:<br>
 [Private Key Contents]
 -----END RSA PRIVATE KEY-----
 ````
+
+## Client and Server Scripts
+- client.py: This script implements a basic SSH client using the Paramiko library. It connects to a remote server and sends commands to execute.
+
+- server.py: This script implements a basic SSH server using the Paramiko library. It listens for incoming SSH connections and executes the received commands.
