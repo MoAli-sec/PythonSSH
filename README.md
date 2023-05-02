@@ -45,3 +45,7 @@ You have to make it like this:<br>
 To use the client and server scripts, you don't need to start the SSH service manually. The server script will handle the SSH server functionality, and the client script will establish a connection and send commands to execute on the server.
 
 Please note that these scripts provide a basic implementation and may require further modifications or additional error handling for production environments.
+
+
+## Usage
+To use the ssh_cmd.py script, make sure the SSH service is running on your machine. Then, run the script and follow the prompts to enter the server IP, port, username, password, and command to execute remotely.
