@@ -49,3 +49,5 @@ Please note that these scripts provide a basic implementation and may require fu
 
 ## Usage
 To use the ssh_cmd.py script, make sure the SSH service is running on your machine. Then, run the script and follow the prompts to enter the server IP, port, username, password, and command to execute remotely.
+
+To use the client.py and server.py scripts, make sure the SSH service is not running on your machine. Run the server.py script on the machine you want to act as the SSH server. Then, run the client.py script on the machine you want to act as the SSH client. The client script will establish a connection to the server and prompt you to enter commands to execute remotely.
