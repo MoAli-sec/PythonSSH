@@ -22,7 +22,7 @@ The keygen.py script generates an RSA key pair (private and public keys) using t
 To use the generated keys with the other scripts, you need to copy the contents of the private_key.pem file and paste it into a new file named rsa_test.key. Make sure to add the RSA keyword at the start and end of the private key content in rsa_test.key.<br>
 
 `
------BEGIN RSA PRIVATE KEY-----
-[Private Key Contents]
------END RSA PRIVATE KEY-----
+-----BEGIN RSA PRIVATE KEY-----<br>
+[Private Key Contents]<br>
+-----END RSA PRIVATE KEY-----<br>
 `
