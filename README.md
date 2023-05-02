@@ -14,7 +14,9 @@ sudo service ssh start
 
 
 - macOS: macOS also has an SSH service built-in. To start the service, open a terminal and run the following command:<br>
-```sudo systemsetup -setremotelogin on```
+```
+sudo systemsetup -setremotelogin on
+```
 
 - Windows: Windows does not have an SSH service built-in. However, you can use third-party programs like OpenSSH or PuTTY to enable SSH functionality. You can download and install OpenSSH from the official OpenSSH website or use PuTTY as an alternative.
 
@@ -68,10 +70,14 @@ The scripts in this project require the following dependencies:
 - Python3.x
 
 - Paramiko: You can install it using pip:<br>
-```pip install paramiko```
+```
+pip install paramiko
+```
 
 - cryptography: You can install it using pip:<br>
-```pip install cryptography```
+```
+pip install cryptography
+```
 
 ## Disclaimer
 This tool is intended for educational and testing purposes only. Please use responsibly and with the explicit permission of the remote server owner. Use them at your own risk.
