@@ -21,8 +21,8 @@ The ssh_cmd.py script requires the SSH service to be running on your machine. Be
 The keygen.py script generates an RSA key pair (private and public keys) using the cryptography library. To generate the keys, run the keygen.py script. After running the script, you will have a private_key.pem file and a public_key.pem file.<br>
 To use the generated keys with the other scripts, you need to copy the contents of the private_key.pem file and paste it into a new file named rsa_test.key. Make sure to add the RSA keyword at the start and end of the private key content in rsa_test.key.<br>
 
-`
------BEGIN RSA PRIVATE KEY-----<br>
-[Private Key Contents]<br>
------END RSA PRIVATE KEY-----<br>
-`
+```
+-----BEGIN RSA PRIVATE KEY-----
+[Private Key Contents]
+-----END RSA PRIVATE KEY-----
+````
