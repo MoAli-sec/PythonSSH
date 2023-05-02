@@ -10,5 +10,6 @@ The ssh_cmd.py script requires the SSH service to be running on your machine. Be
 - Linux: The SSH service is usually pre-installed on most Linux distributions. To start the service, open a terminal and run the following command:
 `sudo service ssh start`
 
+
 - macOS: macOS also has an SSH service built-in. To start the service, open a terminal and run the following command:
 `sudo systemsetup -setremotelogin on`
