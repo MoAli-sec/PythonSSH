@@ -33,12 +33,12 @@ class Server(paramiko.ServerInterface):
             chanid: The channel ID.
 
         Returns:
-            int: OPEN_SUCCEEDED if the request is allowed, OPEN_FAILED_ADMINSTRATIVELY_PROHIBITED otherwise.
+            int: OPEN_SUCCEEDED if the request is allowed, OPEN_FAILED_ADMINISTRATIVELY_PROHIBITED otherwise.
         """
         # Allow only session channel requests
         if kind == 'session':
             return paramiko.OPEN_SUCCEEDED
-        return paramiko.OPEN_FAILED_ADMINSTRATIVELY_PROHIBITED
+        return paramiko.OPEN_FAILED_ADMINISTRATIVELY_PROHIBITED
 
     def check_auth_password(self, username, password):
         """
