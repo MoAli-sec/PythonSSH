@@ -51,10 +51,6 @@ def ssh_command(ip, port, user, passwd, command):
                 # Send any exceptions raised to the client
                 ssh_session.send(str(e))
 
-            finally:
-                print("ok")
-                continue
-
         # Close the SSH connection
         client.close()
     return
